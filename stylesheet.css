@@ -1,0 +1,66 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+}
+
+.tiles{
+  max width: 640px;
+  margin:0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tiles-item{
+  background: black;
+  color: white;
+  width: 200px;
+  height: 200px;
+  display: block;
+  padding: 20px;
+  font-size: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.tiles-item:hover br{
+  display: none;
+}
+
+.text-line{
+  font-weight: bold;
+  font-size: 30px;
+  margin: 150px 0;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.text-thight{
+  letter-spacing: -5px;
+}
+
+.text-rotate{
+  transform: rotate(6deg);
+}
+
+.text-rotate-2{
+  transform: rotate(-10deg);
+}
+
+.text-big{
+  font-size: 120px;
+}
+
+.text-color{
+  color: #5dff00;
+}
+
+.text {
+  padding: 30px;
+}
